@@ -1,46 +1,80 @@
 <!DOCTYPE html>
-      <html>
-        <head>
-          <title>ping-pong</title>
-          <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-          <link href="css/styles.css" rel="stylesheet" type="text/css">
-          <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-          <script src="js/scripts.js"></script>
-          <title>Ping Pong</title>
-</head>
-<body>
-   <div class="Tall">
-     <img src="http://des.gbtcdn.com/uploads/pdm-desc-pic/Distribution/image/2016/04/26/1461666341661584.jpg">
-    <h1>Ping Pong</h1>
-  </div>
-    <form id="PingPong">
-      <div class="form-group">
-        <label for="ping">Enter your number here:</label>
-        <input id="ping" type="text">
-      </div>
-      <button type="submit" class="btn">ping pong!</button>
-    </form>
-      <div><ul id="result"></ul>
-      </div>
-      <div id="t">
-      <h1>About Ping Pong</h1>
-      <h1>Created by:</h1>
-      <h3>Kit Fisto</h3>
-      <h1>GitHub Username/URL:</h1>
-      <h3>greensaber</h3>
-      <h1>Level 2 Test for:</h1>
-      <h3>Java</h3>
-    </div>
-    <div id="y">
-      <h1>Let's play</h1>
-      <h1>Rules:</h1>
-      <h3>Ping Pong will count to your number from 1 with the following exceptions:</h3>
-      <ol>
-        <li>Numbers divisible by 3 become'ping'</li>
-        <li>Numbers divisible by 5 become'pong'</li>
-        <li>Number divisible by 15 become'pingpong'</li>
-      </ol>
-    </div>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ping Pong</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="text-center font-weight-bold">Ping Pong</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div id="t">
+          <div class="card">
+            <div class="container1">
+              <h1>About Ping Pong</h1>
+              <p>Table tennis, also known as ping-pong, is a sport in which two or four players hit a lightweight ball back and forth across a table using small bats. The game takes place on a hard table divided by a net.</p>
+            </div>
+          </div>
+          <h1>Created by:</h1>
+          <p>Natasha Senah</p>
+          <h1>GitHub Username/URL:</h1>
+          <p>NatashaSenah</p>
+          <h1>Level 2 Test for:</h1>
+          <h3>Java</h3>
+        </div>
+        <div id="y">
+          <div class="card">
+            <div class="container1">
+              <h1>Let&#39;s play</h1>
+              <h1>Rules:</h1>
+              <h3>Ping Pong will count to your number from 1 with the following exceptions:</h3>
+              <ol>
+                <li>Numbers divisible by 3 become&#39;ping&#39;</li>
+                <li>Numbers divisible by 5 become&#39;pong&#39;</li>
+                <li>Number divisible by 15 become&#39;pingpong&#39;</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p>
+          <form id="PingPong">
+            <div class="form-group">
+              <label for="ping">Enter your number here:</label>
+              <input id="ping" type="text">
+              <button type="submit" class="btn btn-primary">ping pong!</button>
+            </div>
+          </form>
+          <div>
+            <ul id="result"></ul>
+          </div>
+      </div>
+      </p>
+
+    </div>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
 </body>
+
 </html>
