@@ -1,7 +1,9 @@
 body {
-  background-image: url("../images/ping.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../images/ping.jpg"), url("../images/pong.jpg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: left,right;
   height: 100%;
+  background-size:auto,cover;
 }
 
 .Tall{
